@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.Container {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-left: 35%;
+}
+
+.GroceryList {
+  width: 100%;
+  background-color: rgb(187, 223, 211);
+}
+
+.ShoppingCart {
+  width: 100%;
+  background-color: rgb(212, 126, 56);
+}
+
+.List {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.list-item-grocery {
+  list-style: none;
+  background-color: rgba(128, 211, 255);
+}
+
+.list-item-grocery:nth-child(even) {
+  background-color: rgb(128, 211, 255, 0.5);
+}
+
+.list-item-shopping {
+  list-style: none;
+  background-color: rgb(204, 201, 172);
+}
+
+.list-item-shopping:nth-child(even) {
+  background-color: rgba(190, 183, 197, 0.5);
+}
+
+.emptyButton {
+  background-color: rgb(211, 211, 211);
+  color: rgb(14, 11, 11);
+  font-size: 15px;
+  padding: 5px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  padding: 5px 10px;
+  outline: none;
+  margin-left: 5%;
+}
